@@ -1,2 +1,3 @@
-# lectures-opv
-Lectures on the subject of fundamentals of parallel computing from the great teacher Golovashkin D.V.
+# Лекции по предмету "Основы паралелльных вычислений"
+
+### [Лекция 1 (05.02)](Lecture_1.md)
