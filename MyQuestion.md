@@ -71,3 +71,23 @@ for k=1:n-1
     end for
 end for
 ```
+
+**kij-алгоритм LU-разложения, скалярный вид**
+```
+for k=1:n-1
+    for i=k+1:n
+        A(i,k)=A(i,k)/A(k,k)
+    end for
+    for i=k+1:n
+        for j=k+1:n
+            A(i,j)=A(i,j)-A(i,k)A(k,j)
+        end for
+    end for
+end for 
+```
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
